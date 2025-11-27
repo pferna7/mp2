@@ -1,0 +1,161 @@
+/* simple reset so the page looks consistent */
+* {
+    box-sizing: border-box; /* keep padding from stretching boxes in weird ways */
+    margin: 0;
+    padding: 0;
+}
+
+/* overall body styling */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* just a basic readable font */
+    background-color: #fafafa; /* light background */
+    color: #111; /* dark text for contrast */
+}
+
+/* wrapper for the whole page */
+#page {
+    max-width: 1200px; /* keep content from getting too wide on huge screens */
+    margin: 20px auto; /* center the page */
+    padding: 0 15px; /* a bit of breathing room on the sides */
+}
+
+/* big title at the top */
+#page-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* small section headings */
+.section-title {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+/* general section spacing */
+#load-section,
+#controls-section {
+    background-color: #ffffff; /* white blocks to separate from background */
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0; /* light border so sections are visible */
+}
+
+/* layout for the filters and sort dropdowns */
+#controls-row {
+    display: flex; /* put them all in one row */
+    flex-wrap: wrap; /* let them wrap if the screen is narrow */
+    gap: 12px; /* little gaps between items */
+    align-items: center;
+}
+
+/* labels hold dropdown and text */
+#controls-row label {
+    font-size: 0.9rem;
+}
+
+/* dropdowns get a tiny bit of padding */
+#controls-row select {
+    margin-left: 4px;
+    padding: 3px 4px;
+}
+
+/* file input area */
+#file-input {
+    margin-right: 10px;
+}
+
+/* file name text */
+#file-name {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* error message styling (like screenshot: red text) */
+#error-message {
+    margin-top: 8px;
+    color: #c00; /* solid red */
+    font-weight: bold;
+}
+
+/* helper class so we can hide/show elements easily */
+.hidden {
+    display: none;
+}
+
+/* main two-column layout for course list and course details */
+#courses-section {
+    display: flex;
+    gap: 15px; /* a bit of space between list and details */
+}
+
+/* on small screens we just stack the two columns */
+@media (max-width: 768px) {
+    #courses-section {
+        flex-direction: column;
+    }
+}
+
+/* left column container */
+#course-list-container {
+    flex: 0 0 30%; /* roughly one third of width on big screens */
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    max-height: 500px; /* keep it from growing too tall */
+    overflow-y: auto; /* scroll if list is long */
+}
+
+/* right column container */
+#course-details-container {
+    flex: 1; /* take remaining width */
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    min-height: 200px; /* little bit of height even when empty */
+}
+
+/* sub-headings on each side */
+.sub-heading {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+/* each course in the left list */
+.course-item {
+    width: 100%;
+    text-align: left;
+    padding: 8px 10px;
+    margin-bottom: 6px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    cursor: pointer; /* show that you can click it */
+    font-size: 0.9rem;
+}
+
+/* hover state so it feels interactive */
+.course-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* selected course in the list */
+.course-item.selected {
+    background-color: #e0e0ff; /* light bluish tone */
+    border-color: #7070ff;
+}
+
+/* spacing inside the details area */
+#course-details p {
+    margin-bottom: 6px;
+}
+
+/* main course id in details area */
+#course-details h2 {
+    margin-bottom: 10px;
+}
+
+/* light grey background for placeholder text at the beginning */
+.course-details-placeholder {
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 4px;
+}
