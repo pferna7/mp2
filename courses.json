@@ -1,0 +1,482 @@
+[
+  {
+    "id": "CS101",
+    "title": "Introduction to Computer Science",
+    "department": "Computer Science",
+    "level": 100,
+    "credits": 3,
+    "instructor": "Dr. Alice Kim",
+    "description": "An introduction to computational thinking, algorithms, and problem-solving.",
+    "semester": "Fall 2025"
+  },
+  {
+    "id": "CS205",
+    "title": "Data Structures",
+    "department": "Computer Science",
+    "level": 200,
+    "credits": 4,
+    "instructor": "Prof. David Lee",
+    "description": "Covers lists, trees, graphs, and hash tables with analysis of algorithms.",
+    "semester": "Winter 2026"
+  },
+  {
+    "id": "CS220",
+    "title": "Computer Architecture",
+    "department": "Computer Science",
+    "level": 200,
+    "credits": 3,
+    "instructor": "Dr. Helen Brooks",
+    "description": "Introduction to digital logic, processors, memory hierarchies, and assembly programming.",
+    "semester": "Spring 2026"
+  },
+  {
+    "id": "CS310",
+    "title": "Operating Systems",
+    "department": "Computer Science",
+    "level": 300,
+    "credits": 4,
+    "instructor": "Dr. Omar Singh",
+    "description": "Covers processes, memory management, concurrency, and file systems.",
+    "semester": "Fall 2026"
+  },
+  {
+    "id": "CS330",
+    "title": "Algorithms",
+    "department": "Computer Science",
+    "level": 300,
+    "credits": 3,
+    "instructor": "Prof. Linda Park",
+    "description": "Algorithm design, complexity analysis, sorting, searching, and graph algorithms.",
+    "semester": "Winter 2026"
+  },
+  {
+    "id": "CS340",
+    "title": "Database Systems",
+    "department": "Computer Science",
+    "level": 300,
+    "credits": 3,
+    "instructor": "Dr. Kevin Wu",
+    "description": "Relational databases, SQL, transactions, and data modeling.",
+    "semester": "Spring 2026"
+  },
+  {
+    "id": "CS360",
+    "title": "Web Development",
+    "department": "Computer Science",
+    "level": 300,
+    "credits": 3,
+    "instructor": "Dr. Maria Lopez",
+    "description": "Frontend and backend development using modern web technologies.",
+    "semester": "Fall 2025"
+  },
+  {
+    "id": "CS410",
+    "title": "Machine Learning",
+    "department": "Computer Science",
+    "level": 400,
+    "credits": 4,
+    "instructor": "Prof. Isaac Turner",
+    "description": "Supervised and unsupervised learning, neural networks, and evaluation methods.",
+    "semester": "Fall 2026"
+  },
+  {
+    "id": "CS420",
+    "title": "Software Engineering",
+    "department": "Computer Science",
+    "level": 400,
+    "credits": 3,
+    "instructor": "Dr. Amanda Scott",
+    "description": "Software lifecycle, design patterns, testing, and project management.",
+    "semester": "Winter 2026"
+  },
+  {
+    "id": "CS450",
+    "title": "Artificial Intelligence",
+    "department": "Computer Science",
+    "level": 400,
+    "credits": 3,
+    "instructor": "Dr. Noah Clarke",
+    "description": "Search algorithms, reasoning, planning, and intelligent agents.",
+    "semester": "Spring 2026"
+  },
+  {
+    "id": "MATH120",
+    "title": "Calculus I",
+    "department": "Mathematics",
+    "level": 100,
+    "credits": 3,
+    "instructor": "Dr. Sarah Patel",
+    "description": "Differentiation and integration of functions of one variable.",
+    "semester": "Fall 2025"
+  },
+  {
+    "id": "MATH130",
+    "title": "Calculus II",
+    "department": "Mathematics",
+    "level": 100,
+    "credits": 3,
+    "instructor": "Dr. Daniel Cho",
+    "description": "Techniques of integration, series, and parametric equations.",
+    "semester": "Winter 2026"
+  },
+  {
+    "id": "MATH140",
+    "title": "Discrete Mathematics",
+    "department": "Mathematics",
+    "level": 100,
+    "credits": 3,
+    "instructor": "Prof. Rachel Li",
+    "description": "Logic, sets, combinatorics, and graph theory.",
+    "semester": "Spring 2026"
+  },
+  {
+    "id": "MATH240",
+    "title": "Probability",
+    "department": "Mathematics",
+    "level": 200,
+    "credits": 3,
+    "instructor": "Dr. Kevin Douglas",
+    "description": "Probability spaces, distributions, expectations, and applications.",
+    "semester": "Fall 2026"
+  },
+  {
+    "id": "MATH250",
+    "title": "Linear Algebra",
+    "department": "Mathematics",
+    "level": 200,
+    "credits": 3,
+    "instructor": "Dr. Thomas Nguyen",
+    "description": "Matrix theory, vector spaces, eigenvalues, and linear transformations.",
+    "semester": "Fall 2025"
+  },
+  {
+    "id": "MATH310",
+    "title": "Real Analysis",
+    "department": "Mathematics",
+    "level": 300,
+    "credits": 3,
+    "instructor": "Dr. Hannah Foster",
+    "description": "Sequences, limits, continuity, differentiation, and integration theory.",
+    "semester": "Winter 2026"
+  },
+  {
+    "id": "MATH330",
+    "title": "Numerical Methods",
+    "department": "Mathematics",
+    "level": 300,
+    "credits": 3,
+    "instructor": "Dr. Oliver Bennett",
+    "description": "Approximation, numerical differentiation, integration, and linear systems.",
+    "semester": "Spring 2026"
+  },
+  {
+    "id": "MATH410",
+    "title": "Abstract Algebra",
+    "department": "Mathematics",
+    "level": 400,
+    "credits": 3,
+    "instructor": "Prof. Priya Menon",
+    "description": "Groups, rings, fields, and algebraic structures.",
+    "semester": "Fall 2026"
+  },
+  {
+    "id": "ENG110",
+    "title": "Academic Writing",
+    "department": "English",
+    "level": 100,
+    "credits": 3,
+    "instructor": "Dr. Rebecca Moore",
+    "description": "Develops academic reading, writing, argumentation, and critical thinking.",
+    "semester": "Winter 2026"
+  },
+  {
+    "id": "ENG150",
+    "title": "Introduction to Literature",
+    "department": "English",
+    "level": 100,
+    "credits": 3,
+    "instructor": "Prof. Samuel Wright",
+    "description": "Study of poetry, drama, and fiction across historical periods.",
+    "semester": "Fall 2025"
+  },
+  {
+    "id": "ENG220",
+    "title": "Creative Writing",
+    "department": "English",
+    "level": 200,
+    "credits": 3,
+    "instructor": "Dr. Nina Hart",
+    "description": "Writing short fiction, poetry, and creative nonfiction.",
+    "semester": "Spring 2026"
+  },
+  {
+    "id": "HIST210",
+    "title": "World History Since 1500",
+    "department": "History",
+    "level": 200,
+    "credits": 3,
+    "instructor": "Prof. Michael Thompson",
+    "description": "A global survey of major events from 1500 to the modern era.",
+    "semester": "Fall 2025"
+  },
+  {
+    "id": "HIST240",
+    "title": "History of Science",
+    "department": "History",
+    "level": 200,
+    "credits": 3,
+    "instructor": "Dr. Joanna Reed",
+    "description": "History of scientific ideas from antiquity to modern times.",
+    "semester": "Winter 2026"
+  },
+  {
+    "id": "HIST320",
+    "title": "Modern European History",
+    "department": "History",
+    "level": 300,
+    "credits": 3,
+    "instructor": "Dr. Henry Wallace",
+    "description": "Political, cultural, and social developments in Europe since 1800.",
+    "semester": "Spring 2026"
+  },
+  {
+    "id": "PSY101",
+    "title": "Introduction to Psychology",
+    "department": "Psychology",
+    "level": 100,
+    "credits": 3,
+    "instructor": "Dr. Jason Rivera",
+    "description": "Overview of human behavior, cognition, and emotion.",
+    "semester": "Fall 2025"
+  },
+  {
+    "id": "PSY150",
+    "title": "Developmental Psychology",
+    "department": "Psychology",
+    "level": 100,
+    "credits": 3,
+    "instructor": "Dr. Megan Collins",
+    "description": "Human development from infancy through adulthood.",
+    "semester": "Winter 2026"
+  },
+  {
+    "id": "PSY230",
+    "title": "Cognitive Psychology",
+    "department": "Psychology",
+    "level": 200,
+    "credits": 3,
+    "instructor": "Dr. Lucas Patel",
+    "description": "Perception, memory, language, and problem-solving.",
+    "semester": "Spring 2026"
+  },
+  {
+    "id": "PSY340",
+    "title": "Abnormal Psychology",
+    "department": "Psychology",
+    "level": 300,
+    "credits": 3,
+    "instructor": "Dr. Vivian Zhang",
+    "description": "Psychological disorders, diagnosis, and treatment.",
+    "semester": "Fall 2026"
+  },
+  {
+    "id": "BIO130",
+    "title": "Introduction to Biology",
+    "department": "Biology",
+    "level": 100,
+    "credits": 4,
+    "instructor": "Dr. Emily Chen",
+    "description": "Cell structure, genetics, evolution, and ecology.",
+    "semester": "Winter 2026"
+  },
+  {
+    "id": "BIO140",
+    "title": "Human Anatomy",
+    "department": "Biology",
+    "level": 100,
+    "credits": 4,
+    "instructor": "Dr. Patrick Evans",
+    "description": "Structure and function of major human body systems.",
+    "semester": "Fall 2025"
+  },
+  {
+    "id": "BIO210",
+    "title": "Microbiology",
+    "department": "Biology",
+    "level": 200,
+    "credits": 4,
+    "instructor": "Dr. Angela Brooks",
+    "description": "Study of microorganisms and their impacts.",
+    "semester": "Spring 2026"
+  },
+  {
+    "id": "BIO320",
+    "title": "Genetics",
+    "department": "Biology",
+    "level": 300,
+    "credits": 4,
+    "instructor": "Dr. Wesley Grant",
+    "description": "Mendelian genetics, molecular genetics, and genomics.",
+    "semester": "Fall 2026"
+  },
+  {
+    "id": "CHEM100",
+    "title": "General Chemistry I",
+    "department": "Chemistry",
+    "level": 100,
+    "credits": 4,
+    "instructor": "Dr. Olivia Pearson",
+    "description": "Atomic structure, bonding, reactions, and stoichiometry.",
+    "semester": "Fall 2025"
+  },
+  {
+    "id": "CHEM110",
+    "title": "General Chemistry II",
+    "department": "Chemistry",
+    "level": 100,
+    "credits": 4,
+    "instructor": "Dr. Mark Reynolds",
+    "description": "Thermodynamics, kinetics, equilibrium, and electrochemistry.",
+    "semester": "Winter 2026"
+  },
+  {
+    "id": "CHEM220",
+    "title": "Organic Chemistry I",
+    "department": "Chemistry",
+    "level": 200,
+    "credits": 4,
+    "instructor": "Dr. Fiona Harper",
+    "description": "Structure, properties, and reactions of organic molecules.",
+    "semester": "Spring 2026"
+  },
+  {
+    "id": "CHEM310",
+    "title": "Biochemistry",
+    "department": "Chemistry",
+    "level": 300,
+    "credits": 4,
+    "instructor": "Dr. Daniel Ruiz",
+    "description": "Proteins, enzymes, metabolism, and molecular biology.",
+    "semester": "Fall 2026"
+  },
+  {
+    "id": "PHYS100",
+    "title": "Physics I",
+    "department": "Physics",
+    "level": 100,
+    "credits": 4,
+    "instructor": "Dr. Julia Adams",
+    "description": "Mechanics, motion, forces, and energy.",
+    "semester": "Fall 2025"
+  },
+  {
+    "id": "PHYS110",
+    "title": "Physics II",
+    "department": "Physics",
+    "level": 100,
+    "credits": 4,
+    "instructor": "Dr. Michael Ortiz",
+    "description": "Electricity, magnetism, and waves.",
+    "semester": "Winter 2026"
+  },
+  {
+    "id": "PHYS220",
+    "title": "Modern Physics",
+    "department": "Physics",
+    "level": 200,
+    "credits": 3,
+    "instructor": "Dr. Catherine Wood",
+    "description": "Relativity, quantum mechanics, and atomic theory.",
+    "semester": "Spring 2026"
+  },
+  {
+    "id": "PHYS330",
+    "title": "Astrophysics",
+    "department": "Physics",
+    "level": 300,
+    "credits": 3,
+    "instructor": "Dr. Benjamin Hall",
+    "description": "Stellar evolution, galaxies, and cosmology.",
+    "semester": "Fall 2026"
+  },
+  {
+    "id": "ECON101",
+    "title": "Introduction to Economics",
+    "department": "Economics",
+    "level": 100,
+    "credits": 3,
+    "instructor": "Prof. Lisa Monroe",
+    "description": "Basic concepts of macroeconomics and microeconomics.",
+    "semester": "Fall 2025"
+  },
+  {
+    "id": "ECON201",
+    "title": "Microeconomics",
+    "department": "Economics",
+    "level": 200,
+    "credits": 3,
+    "instructor": "Dr. Angela Morris",
+    "description": "Consumer behavior, markets, and price theory.",
+    "semester": "Winter 2026"
+  },
+  {
+    "id": "ECON220",
+    "title": "Macroeconomics",
+    "department": "Economics",
+    "level": 200,
+    "credits": 3,
+    "instructor": "Dr. Brian Carter",
+    "description": "National income, inflation, unemployment, and economic growth.",
+    "semester": "Spring 2026"
+  },
+  {
+    "id": "ECON320",
+    "title": "Econometrics",
+    "department": "Economics",
+    "level": 300,
+    "credits": 3,
+    "instructor": "Dr. Sylvia Ramos",
+    "description": "Statistical modeling, regression, and economic data analysis.",
+    "semester": "Fall 2026"
+  },
+  {
+    "id": "ART150",
+    "title": "Introduction to Digital Media",
+    "department": "Art",
+    "level": 100,
+    "credits": 3,
+    "instructor": "Prof. Liam Carter",
+    "description": "Explores digital art tools, design principles, and creative workflows.",
+    "semester": "Fall 2025"
+  },
+  {
+    "id": "ART210",
+    "title": "Drawing I",
+    "department": "Art",
+    "level": 200,
+    "credits": 3,
+    "instructor": "Prof. Hannah Wood",
+    "description": "Fundamental drawing techniques with charcoal and ink.",
+    "semester": "Winter 2026"
+  },
+  {
+    "id": "ART260",
+    "title": "Photography",
+    "department": "Art",
+    "level": 200,
+    "credits": 3,
+    "instructor": null,
+    "description": "Digital and film photography principles and creative composition.",
+    "semester": "Spring 2026"
+  },
+  {
+    "id": "ART310",
+    "title": "Graphic Design",
+    "department": "Art",
+    "level": 300,
+    "credits": 3,
+    "instructor": null,
+    "description": "Design theory, typography, branding, and visual communication.",
+    "semester": "Fall 2026"
+  }
+]
